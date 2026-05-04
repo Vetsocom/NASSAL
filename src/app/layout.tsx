@@ -28,6 +28,19 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
   title: 'NASSAL — Healing Hope & Resilience for Stroke Survivors in Liberia',
   description: 'National Stroke Survivors Association of Liberia supports stroke survivors through awareness, education, advocacy, and recovery-focused community outreach across Liberia.',
+  keywords: [
+    'Stroke survivors association Liberia',
+    'NASSAL',
+    'Stroke recovery Liberia',
+    'Hypertension awareness Liberia',
+    'Stroke prevention education',
+    'Liberian health NGO',
+    'Stroke advocacy Africa',
+    'Post-stroke rehabilitation support',
+    'Neurological health Liberia',
+    'National Stroke Survivors Association of Liberia',
+    'stroke'
+  ],
   icons: {
     icon: [{ url: '/favicon.ico', type: 'image/x-icon' }],
   },

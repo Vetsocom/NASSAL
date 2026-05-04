@@ -1,5 +1,12 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import Header from '@/components/Header';
+
+export const metadata: Metadata = {
+  title: 'NASSAL — Healing, Hope & Resilience for Stroke Survivors in Liberia',
+  description: 'The National Stroke Survivors Association of Liberia (NASSAL) provides advocacy, education, and peer support to stroke survivors and their families across Liberia.',
+  keywords: ['NASSAL', 'Stroke survivors Liberia', 'Stroke prevention', 'Hypertension awareness', 'Recovery support Liberia'],
+};
 import Footer from '@/components/Footer';
 import HeroSection from '@/app/components/HeroSection';
 import MissionSection from '@/app/components/MissionSection';
