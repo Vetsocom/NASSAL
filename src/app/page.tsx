@@ -11,6 +11,7 @@ import LeadershipPreviewSection from '@/app/components/LeadershipPreviewSection'
 import TestimonialsSection from '@/app/components/TestimonialsSection';
 import LatestNewsSection from '@/app/components/LatestNewsSection';
 import HomeCTASection from '@/app/components/HomeCTASection';
+import FAQSection from '@/app/components/FAQSection';
 
 export default function HomePage() {
   return (
@@ -24,6 +25,7 @@ export default function HomePage() {
       <FeaturedProjectsSection />
       <LeadershipPreviewSection />
       <TestimonialsSection />
+      <FAQSection />
       <LatestNewsSection />
       <HomeCTASection />
       <Footer />
