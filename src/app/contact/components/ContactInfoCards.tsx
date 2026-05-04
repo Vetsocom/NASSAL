@@ -14,7 +14,7 @@ const cards = [
     icon: 'WhatsApp',
     title: 'WhatsApp Us',
     lines: ['+231 776 279 605', 'Quick Response'],
-    href: 'https://wa.me/231776279605',
+    href: 'https://wa.me/+231881451935',
     color: 'text-teal',
     bg: 'bg-teal-50 dark:bg-teal-900/20',
   },
