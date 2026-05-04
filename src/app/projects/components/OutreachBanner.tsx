@@ -7,7 +7,7 @@ export default function OutreachBanner() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="relative rounded-3xl overflow-hidden min-h-[360px] flex items-center">
           <AppImage
-            src="https://img.rocket.new/generatedImages/rocket_gen_img_1a9d33e53-1776981392267.png"
+            src="/assets/images/project.png"
             alt="A large outdoor community health event in West Africa with people gathered in bright sunlight, symbolizing NASSAL's community outreach"
             fill
             className="object-cover object-center"
