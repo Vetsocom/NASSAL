@@ -29,7 +29,7 @@ export default function WhatsAppFAB() {
       </AnimatePresence>
 
       <motion.a
-        href="https://wa.me/231881451935"
+        href="https://wa.me/231886336063"
         target="_blank"
         rel="noopener noreferrer"
         onMouseEnter={() => setIsHovered(true)}
