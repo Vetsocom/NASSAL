@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function AboutHero() {
   return (
-    <section className="relative pt-36 pb-20 bg-gradient-to-br from-primary via-[#C41E1E] to-[#7C1010] overflow-hidden">
+    <section className="relative pt-33 pb-19 bg-gradient-to-br from-primary via-[#C41E1E] to-[#7C1010] overflow-hidden">
       {/* Decorative circles */}
       <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-white/5 -translate-y-1/3 translate-x-1/3" />
       <div className="absolute bottom-0 left-0 w-64 h-64 rounded-full bg-black/10 translate-y-1/2 -translate-x-1/3" />
