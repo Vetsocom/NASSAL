@@ -1,5 +1,6 @@
 import React from 'react';
 import AppImage from '@/components/ui/AppImage';
+import Icon from '@/components/ui/AppIcon';
 
 interface Leader {
   name: string;
@@ -8,7 +9,12 @@ interface Leader {
   img?: string;
   color: string;
   bio: string;
+  facebook: string;
+  whatsapp: string;
 }
+
+const ORG_FACEBOOK = 'https://www.facebook.com/share/1KL4T3SG2s/';
+const ORG_WHATSAPP = 'https://wa.me/231776279605';
 
 const leaders: Leader[] = [
   {
@@ -18,6 +24,8 @@ const leaders: Leader[] = [
     img: '/assets/images/sorna.png',
     color: 'bg-primary',
     bio: "Sorna F. Sherif serves as Board Chair of NASSAL, providing strategic vision and governance leadership. With a deep commitment to community health and survivor welfare, she guides the organization's mission to support stroke survivors across Liberia.",
+    facebook: ORG_FACEBOOK,
+    whatsapp: ORG_WHATSAPP,
   },
   {
     name: 'Isaac V. Farnga',
@@ -26,6 +34,8 @@ const leaders: Leader[] = [
     img: '/assets/images/issac.png',
     color: 'bg-accent',
     bio: "Isaac V. Farnga serves as Co-Chair, supporting organizational leadership and program development. His dedication to healthcare advocacy and community mobilization strengthens NASSAL's reach and impact across Montserrado County.",
+    facebook: ORG_FACEBOOK,
+    whatsapp: ORG_WHATSAPP,
   },
   {
     name: 'Mr. Dominic Morlu',
@@ -34,6 +44,8 @@ const leaders: Leader[] = [
     img: '/assets/images/dominic.png',
     color: 'bg-teal',
     bio: "Mr. Dominic Morlu serves as Secretary General and Registered Agent of NASSAL, based in Caldwell, Montserrado County. He manages organizational operations, stakeholder communications, and ensures NASSAL's programs are effectively administered and legally compliant.",
+    facebook: ORG_FACEBOOK,
+    whatsapp: ORG_WHATSAPP,
   },
   {
     name: 'Victoria Ballayan',
@@ -42,6 +54,8 @@ const leaders: Leader[] = [
     img: '/assets/images/victoria.png',
     color: 'bg-primary/80',
     bio: "Victoria Ballayan brings community health expertise and grassroots advocacy experience to NASSAL's board. Her work focuses on expanding survivor support networks and strengthening caregiver education programs in underserved communities.",
+    facebook: ORG_FACEBOOK,
+    whatsapp: ORG_WHATSAPP,
   },
   {
     name: 'Othello Morlu',
@@ -50,6 +64,8 @@ const leaders: Leader[] = [
     img: '/assets/images/othello.png',
     color: 'bg-accent/80',
     bio: "Othello Morlu contributes organizational development and partnership-building expertise to NASSAL. His efforts support the expansion of awareness campaigns and the cultivation of key partnerships with healthcare and civil society organizations.",
+    facebook: ORG_FACEBOOK,
+    whatsapp: ORG_WHATSAPP,
   },
 ];
 
@@ -88,6 +104,27 @@ export default function FullLeadership() {
               <div className="flex-grow">
                 <h3 className="font-display font-600 text-xl text-foreground mb-1">{leader.name}</h3>
                 <p className="text-accent text-xs font-bold uppercase tracking-widest mb-4">{leader.role}</p>
+                <p className="text-muted-foreground text-sm leading-relaxed mb-6">{leader.bio}</p>
+              </div>
+              <div className="flex items-center gap-3">
+                <a 
+                  href={leader.facebook} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="w-10 h-10 flex items-center justify-center rounded-xl bg-secondary text-muted-foreground hover:bg-primary hover:text-white transition-all duration-300"
+                  aria-label={`${leader.name} Facebook`}
+                >
+                  <Icon name="Facebook" size={20} />
+                </a>
+                <a 
+                  href={leader.whatsapp} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="w-10 h-10 flex items-center justify-center rounded-xl bg-secondary text-muted-foreground hover:bg-teal hover:text-white transition-all duration-300"
+                  aria-label={`${leader.name} WhatsApp`}
+                >
+                  <Icon name="WhatsApp" size={20} />
+                </a>
               </div>
             </div>
           ))}

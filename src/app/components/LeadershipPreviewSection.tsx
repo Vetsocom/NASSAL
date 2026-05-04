@@ -9,14 +9,59 @@ interface Leader {
   initials: string;
   img?: string;
   color: string;
+  facebook?: string;
+  whatsapp?: string;
 }
 
+const ORG_FACEBOOK = 'https://www.facebook.com/share/1KL4T3SG2s/';
+const ORG_WHATSAPP = 'https://wa.me/231776279605';
+
 const leaders: Leader[] = [
-  { name: 'Sorna F. Sherif',    role: 'Board Chair',        initials: 'SS', color: 'bg-primary', img: '/assets/images/sorna.png' },
-  { name: 'Isaac V. Farnga',    role: 'Co-Chair',           initials: 'IF', color: 'bg-accent', img: '/assets/images/issac.png' },
-  { name: 'Mr. Dominic Morlu',  role: 'Secretary General',  initials: 'DM', color: 'bg-teal', img: '/assets/images/dominic.png' },
-  { name: 'Victoria Ballayan',  role: 'Board Member',       initials: 'VB', color: 'bg-primary/70', img: '/assets/images/victoria.png' },
-  { name: 'Othello Morlu',      role: 'Board Member',       initials: 'OM', color: 'bg-accent/70', img: '/assets/images/othello.png' },
+  { 
+    name: 'Sorna F. Sherif',    
+    role: 'Board Chair',        
+    initials: 'SS', 
+    color: 'bg-primary', 
+    img: '/assets/images/sorna.png',
+    facebook: ORG_FACEBOOK,
+    whatsapp: ORG_WHATSAPP
+  },
+  { 
+    name: 'Isaac V. Farnga',    
+    role: 'Co-Chair',           
+    initials: 'IF', 
+    color: 'bg-accent', 
+    img: '/assets/images/issac.png',
+    facebook: ORG_FACEBOOK,
+    whatsapp: ORG_WHATSAPP
+  },
+  { 
+    name: 'Mr. Dominic Morlu',  
+    role: 'Secretary General',  
+    initials: 'DM', 
+    color: 'bg-teal', 
+    img: '/assets/images/dominic.png',
+    facebook: ORG_FACEBOOK,
+    whatsapp: ORG_WHATSAPP
+  },
+  { 
+    name: 'Victoria Ballayan',  
+    role: 'Board Member',       
+    initials: 'VB', 
+    color: 'bg-primary/70', 
+    img: '/assets/images/victoria.png',
+    facebook: ORG_FACEBOOK,
+    whatsapp: ORG_WHATSAPP
+  },
+  { 
+    name: 'Othello Morlu',      
+    role: 'Board Member',       
+    initials: 'OM', 
+    color: 'bg-accent/70', 
+    img: '/assets/images/othello.png',
+    facebook: ORG_FACEBOOK,
+    whatsapp: ORG_WHATSAPP
+  },
 ];
 
 export default function LeadershipPreviewSection() {
@@ -58,7 +103,28 @@ export default function LeadershipPreviewSection() {
                 )}
               </div>
               <h3 className="font-display font-600 text-base text-foreground mb-1">{leader.name}</h3>
-              <p className="text-muted-foreground text-xs font-medium uppercase tracking-wide">{leader.role}</p>
+              <p className="text-muted-foreground text-xs font-medium uppercase tracking-wide mb-4">{leader.role}</p>
+              
+              <div className="flex items-center justify-center gap-3">
+                <a 
+                  href={leader.facebook} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="w-8 h-8 flex items-center justify-center rounded-lg bg-secondary text-muted-foreground hover:bg-primary hover:text-white transition-all duration-300"
+                  aria-label={`${leader.name} Facebook`}
+                >
+                  <Icon name="Facebook" size={16} />
+                </a>
+                <a 
+                  href={leader.whatsapp} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="w-8 h-8 flex items-center justify-center rounded-lg bg-secondary text-muted-foreground hover:bg-teal hover:text-white transition-all duration-300"
+                  aria-label={`${leader.name} WhatsApp`}
+                >
+                  <Icon name="WhatsApp" size={16} />
+                </a>
+              </div>
             </div>
           ))}
         </div>
