@@ -40,7 +40,7 @@ export default function FeaturedProject() {
           {/* Image */}
           <div className="relative rounded-3xl overflow-hidden aspect-[4/3] shadow-card-lg">
             <AppImage
-              src="https://img.rocket.new/generatedImages/rocket_gen_img_13f101f8e-1767008310404.png"
+              src="/assets/images/project.png"
               alt="Community health workers conducting a stroke prevention screening outdoors in Liberia, surrounded by engaged community members in bright daylight"
               fill
               className="object-cover"
