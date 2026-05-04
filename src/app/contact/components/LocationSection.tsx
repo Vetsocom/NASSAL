@@ -18,7 +18,7 @@ export default function LocationSection() {
             <div className="space-y-4">
               {[
                 { icon: 'MapPinIcon',  label: 'Address',          value: 'Caldwell, Montserrado County, Liberia' },
-                { icon: 'EnvelopeIcon', label: 'Email',   value: 'dominicmorlu7@gmail.com' },
+                { icon: 'EnvelopeIcon', label: 'Email',   value: 'nationalstrokesurvivors@gmail.com' },
                 { icon: 'PhoneIcon',    label: 'Phone',   value: '+231 776 279 605 / +231 881 451 935' },
               ].map(item => (
                 <div key={item.label} className="flex items-start gap-4 bg-card border border-border rounded-xl p-4 shadow-card">
