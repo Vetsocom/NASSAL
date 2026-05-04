@@ -9,7 +9,7 @@ export default function OurStory() {
           <div className="relative">
             <div className="rounded-3xl overflow-hidden aspect-[4/3] shadow-card-lg">
               <AppImage
-                src="https://img.rocket.new/generatedImages/rocket_gen_img_14b88dc4f-1772182451722.png"
+                src="/assets/images/aboutus.png"
                 alt="Community health workers meeting outdoors in Liberia, gathered around a table in bright afternoon light, discussing community health plans"
                 fill
                 className="object-cover"
