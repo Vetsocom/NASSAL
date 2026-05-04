@@ -24,7 +24,7 @@ const projects = [
   title: 'Survivor Support & Counseling',
   category: 'Direct Support',
   desc: 'One-on-one and group counseling, peer support networks, and practical assistance programs connecting stroke survivors with resources, community, and hope for recovery.',
-  image: "https://img.rocket.new/generatedImages/rocket_gen_img_1ca1120dc-1773042399695.png",
+  image: "/assets/images/conciling.png",
   alt: 'Two people in a warm counseling session, one offering supportive guidance in a bright, welcoming room',
   tag: 'Active'
 }];
