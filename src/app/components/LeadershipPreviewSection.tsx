@@ -42,7 +42,7 @@ export default function LeadershipPreviewSection() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5">
           {leaders.map((leader) => (
             <div key={leader.name} className="card-hover group bg-card border border-border rounded-2xl p-6 shadow-card text-center">
-              <div className="relative w-20 h-20 rounded-full overflow-hidden mx-auto mb-4 group-hover:scale-105 transition-transform duration-300 shadow-sm">
+              <div className="relative w-20 h-22 rounded-full overflow-hidden mx-auto mb-4 group-hover:scale-105 transition-transform duration-300 shadow-sm">
                 {leader.img ? (
                   <AppImage 
                     src={leader.img} 
