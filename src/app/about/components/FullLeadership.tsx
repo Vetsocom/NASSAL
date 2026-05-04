@@ -13,8 +13,6 @@ interface Leader {
   whatsapp: string;
 }
 
-const ORG_FACEBOOK = 'https://www.facebook.com/share/1KL4T3SG2s/';
-const ORG_WHATSAPP = 'https://wa.me/231776279605';
 
 const leaders: Leader[] = [
   {
@@ -24,8 +22,8 @@ const leaders: Leader[] = [
     img: '/assets/images/sorna.png',
     color: 'bg-primary',
     bio: "Sorna F. Sherif serves as Board Chair of NASSAL, providing strategic vision and governance leadership. With a deep commitment to community health and survivor welfare, she guides the organization's mission to support stroke survivors across Liberia.",
-    facebook: ORG_FACEBOOK,
-    whatsapp: ORG_WHATSAPP,
+    facebook: 'https://www.facebook.com/share/1KL4T3SG2s/',
+    whatsapp: 'https://wa.me/231-886-336063',
   },
   {
     name: 'Isaac V. Farnga',
@@ -34,8 +32,8 @@ const leaders: Leader[] = [
     img: '/assets/images/issac.png',
     color: 'bg-accent',
     bio: "Isaac V. Farnga serves as Co-Chair, supporting organizational leadership and program development. His dedication to healthcare advocacy and community mobilization strengthens NASSAL's reach and impact across Montserrado County.",
-    facebook: ORG_FACEBOOK,
-    whatsapp: ORG_WHATSAPP,
+    facebook: 'https://www.facebook.com/share/18cskzQ5CM/',
+    whatsapp: 'https://wa.me/231-777-717616',
   },
   {
     name: 'Mr. Dominic Morlu',
@@ -44,8 +42,8 @@ const leaders: Leader[] = [
     img: '/assets/images/dominic.png',
     color: 'bg-teal',
     bio: "Mr. Dominic Morlu serves as Secretary General and Registered Agent of NASSAL, based in Caldwell, Montserrado County. He manages organizational operations, stakeholder communications, and ensures NASSAL's programs are effectively administered and legally compliant.",
-    facebook: ORG_FACEBOOK,
-    whatsapp: ORG_WHATSAPP,
+    facebook: 'https://www.facebook.com/share/1KL4T3SG2s/',
+    whatsapp: 'https://wa.me/231-886-336063',
   },
   {
     name: 'Victoria Ballayan',
@@ -54,8 +52,8 @@ const leaders: Leader[] = [
     img: '/assets/images/victoria.png',
     color: 'bg-primary/80',
     bio: "Victoria Ballayan brings community health expertise and grassroots advocacy experience to NASSAL's board. Her work focuses on expanding survivor support networks and strengthening caregiver education programs in underserved communities.",
-    facebook: ORG_FACEBOOK,
-    whatsapp: ORG_WHATSAPP,
+    facebook: 'https://www.facebook.com/share/1CgirFfDr3/',
+    whatsapp: 'https://wa.me/231-886-592183',
   },
   {
     name: 'Othello Morlu',
@@ -64,8 +62,8 @@ const leaders: Leader[] = [
     img: '/assets/images/othello.png',
     color: 'bg-accent/80',
     bio: "Othello Morlu contributes organizational development and partnership-building expertise to NASSAL. His efforts support the expansion of awareness campaigns and the cultivation of key partnerships with healthcare and civil society organizations.",
-    facebook: ORG_FACEBOOK,
-    whatsapp: ORG_WHATSAPP,
+    facebook: 'https://www.facebook.com/share/1CHn8z34Ee/',
+    whatsapp: 'https://wa.me/231-777-167477',
   },
 ];
 
