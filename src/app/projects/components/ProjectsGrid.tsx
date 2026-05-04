@@ -122,6 +122,14 @@ export default function ProjectsGrid() {
               <p className="text-xs uppercase tracking-widest font-bold text-accent mb-2">{p.category}</p>
               <h3 className="font-display font-600 text-xl text-foreground mb-3">{p.title}</h3>
               <p className="text-muted-foreground text-sm leading-relaxed flex-1">{p.desc}</p>
+              {p.title === 'Fundraising & Partnerships' && (
+                <a
+                  href="mailto:nationalstrokesurvivors@gmail.com?subject=Partnership Inquiry - NASSAL"
+                  className="mt-6 inline-flex items-center gap-2 text-primary font-bold text-sm hover:gap-3 transition-all"
+                >
+                  Partner With Us <Icon name="ArrowRightIcon" size={14} />
+                </a>
+              )}
             </div>
           ))}
         </div>

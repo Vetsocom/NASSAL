@@ -31,13 +31,13 @@ export default function ContactReassurance() {
               ))}
             </div>
 
-            <Link
+            <a
               href="mailto:dominicmorlu7@gmail.com"
               className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl bg-white text-primary font-bold text-base hover:bg-white/90 hover:-translate-y-0.5 hover:shadow-lg transition-all duration-200"
             >
               <Icon name="EnvelopeIcon" size={18} />
               Get in Touch
-            </Link>
+            </a>
           </div>
         </div>
       </div>

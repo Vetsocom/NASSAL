@@ -121,9 +121,10 @@ export default function Header() {
               key={link.href}
               href={link.href}
               onClick={() => setMobileOpen(false)}
-              className={`flex items-center gap-3 px-4 py-3 rounded-xl text-base font-semibold transition-all ${
+              className={`flex items-center gap-3 px-4 py-4 rounded-xl text-base font-semibold transition-all duration-300 active:scale-95 ${
                 isActive(link.href)
-                  ? 'text-primary bg-primary/8' :'text-foreground/70 hover:text-foreground hover:bg-secondary'
+                  ? 'text-primary bg-primary/8 shadow-sm border border-primary/10' 
+                  : 'text-foreground/70 hover:text-foreground hover:bg-secondary'
               }`}
             >
               {link.label}

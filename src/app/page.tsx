@@ -8,6 +8,8 @@ import WhatWeDoSection from '@/app/components/WhatWeDoSection';
 import WhyItMattersSection from '@/app/components/WhyItMattersSection';
 import FeaturedProjectsSection from '@/app/components/FeaturedProjectsSection';
 import LeadershipPreviewSection from '@/app/components/LeadershipPreviewSection';
+import TestimonialsSection from '@/app/components/TestimonialsSection';
+import LatestNewsSection from '@/app/components/LatestNewsSection';
 import HomeCTASection from '@/app/components/HomeCTASection';
 
 export default function HomePage() {
@@ -21,6 +23,8 @@ export default function HomePage() {
       <WhyItMattersSection />
       <FeaturedProjectsSection />
       <LeadershipPreviewSection />
+      <TestimonialsSection />
+      <LatestNewsSection />
       <HomeCTASection />
       <Footer />
     </main>

@@ -12,7 +12,6 @@ const quickLinks = [
 
 const socialLinks = [
   { icon: 'Facebook', label: 'Facebook',  href: 'https://www.facebook.com/share/1KL4T3SG2s/' },
-  { icon: 'Twitter', label: 'Twitter',   href: '#' },
   { icon: 'Instagram', label: 'Instagram', href: '#' },
 ];
 
@@ -67,8 +66,8 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2.5 text-sm text-white/60">
                 <Icon name="EnvelopeIcon" size={15} className="mt-0.5 text-accent shrink-0" />
-                <a href="mailto:dominicmorlu7@gmail.com" className="hover:text-white transition-colors break-all">
-                  dominicmorlu7@gmail.com
+                <a href="mailto:nationalstrokesurvivors@gmail.com" className="hover:text-white transition-colors break-all">
+                  nationalstrokesurvivors@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-2.5 text-sm text-white/60">

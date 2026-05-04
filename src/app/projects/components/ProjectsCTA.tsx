@@ -14,12 +14,12 @@ export default function ProjectsCTA() {
             Partner with NASSAL to expand our reach, deepen our impact, and bring hope to more stroke survivors and communities across Liberia.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <Link
-              href="/contact"
+            <a
+              href="mailto:nationalstrokesurvivors@gmail.com?subject=Partnership Inquiry - NASSAL"
               className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl bg-accent text-white font-bold text-base hover:bg-accent/90 hover:-translate-y-0.5 hover:shadow-gold transition-all duration-200"
             >
               Partner With Us
-            </Link>
+            </a>
             <Link
               href="/contact"
               className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl border border-white/20 text-white font-bold text-base hover:bg-white/10 hover:-translate-y-0.5 transition-all duration-200"

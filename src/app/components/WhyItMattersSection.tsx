@@ -43,7 +43,7 @@ export default function WhyItMattersSection() {
           <div className="relative">
             <div className="rounded-3xl overflow-hidden aspect-[3/4] shadow-2xl">
               <AppImage
-                src="https://img.rocket.new/generatedImages/rocket_gen_img_130e93577-1777809567023.png"
+                src="/assets/images/chair.png"
                 alt="A healthcare professional providing compassionate support to a patient in West Africa, representing NASSAL's mission of care and recovery"
                 fill
                 className="object-cover"

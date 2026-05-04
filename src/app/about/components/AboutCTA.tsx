@@ -13,12 +13,12 @@ export default function AboutCTA() {
           <p className="text-muted-foreground text-lg leading-relaxed max-w-xl mx-auto mb-8">
             Whether you&apos;re an organization, healthcare professional, donor, or community leader — partnering with NASSAL means directly impacting stroke survivors and communities across Liberia.
           </p>
-          <Link
-            href="/contact"
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-primary text-white font-bold text-base shadow-red hover:bg-primary/90 hover:-translate-y-0.5 hover:shadow-lg transition-all duration-200"
+          <a
+            href="mailto:nationalstrokesurvivors@gmail.com?subject=Partnership Inquiry - NASSAL"
+            className="inline-flex items-center gap-2 px-8 py-4 rounded-2xl bg-white text-primary font-bold shadow-xl hover:bg-white/90 transition-all hover:-translate-y-1"
           >
-            Contact Us
-          </Link>
+            Partner With Us
+          </a>
         </div>
       </div>
     </section>

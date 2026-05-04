@@ -27,7 +27,7 @@ export default function HeroSection() {
       {/* Background image */}
       <div ref={bgRef} className="absolute inset-0 will-change-transform transition-none">
         <AppImage
-          src="https://img.rocket.new/generatedImages/rocket_gen_img_19bb7f3b4-1764830572966.png"
+          src="/assets/images/hero_nassal.png"
           alt="Healthcare workers in a bright clinical setting providing compassionate care in a Liberian community"
           fill
           priority

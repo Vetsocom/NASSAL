@@ -1,8 +1,8 @@
 'use client';
 
 import React from 'react';
-
-// ─── Outline icons (only those actually used in the project) ───────────────
+import { Bars3Icon } from '@heroicons/react/24/outline';
+import { XMarkIcon } from '@heroicons/react/24/outline';
 import { HeartIcon } from '@heroicons/react/24/outline';
 import { MegaphoneIcon } from '@heroicons/react/24/outline';
 import { UserGroupIcon } from '@heroicons/react/24/outline';
@@ -31,9 +31,7 @@ import { QuestionMarkCircleIcon } from '@heroicons/react/24/outline';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import { ArrowLeftIcon } from '@heroicons/react/24/outline';
 import { ChevronRightIcon } from '@heroicons/react/24/outline';
-
-// ─── Social icons (Fallback to local SVGs to avoid lucide-react resolution issues) ─────────────
-import { Facebook, Twitter, Instagram } from './SocialIcons';
+import { Facebook, Twitter, Instagram, WhatsApp } from './SocialIcons';
 
 type IconVariant = 'outline' | 'solid';
 
@@ -76,10 +74,13 @@ const ICON_MAP: Record<string, React.ComponentType<any>> = {
     ArrowRightIcon,
     ArrowLeftIcon,
     ChevronRightIcon,
-    // Social icons
+    
+    Bars3Icon,
+    XMarkIcon,
     Facebook,
     Twitter,
     Instagram,
+    WhatsApp,
 };
 
 function Icon({

@@ -12,11 +12,11 @@ interface Leader {
 }
 
 const leaders: Leader[] = [
-  { name: 'Sorna F. Sherif',    role: 'Board Chair',        initials: 'SS', color: 'bg-primary' },
-  { name: 'Isaac V. Farnga',    role: 'Co-Chair',           initials: 'IF', color: 'bg-accent' },
+  { name: 'Sorna F. Sherif',    role: 'Board Chair',        initials: 'SS', color: 'bg-primary', img: '/assets/images/sorna.png' },
+  { name: 'Isaac V. Farnga',    role: 'Co-Chair',           initials: 'IF', color: 'bg-accent', img: '/assets/images/issac.png' },
   { name: 'Mr. Dominic Morlu',  role: 'Secretary General',  initials: 'DM', color: 'bg-teal', img: '/assets/images/dominic.png' },
-  { name: 'Victoria Ballayan',  role: 'Board Member',       initials: 'VB', color: 'bg-primary/70' },
-  { name: 'Othello Morlu',      role: 'Board Member',       initials: 'OM', color: 'bg-accent/70' },
+  { name: 'Victoria Ballayan',  role: 'Board Member',       initials: 'VB', color: 'bg-primary/70', img: '/assets/images/victoria.png' },
+  { name: 'Othello Morlu',      role: 'Board Member',       initials: 'OM', color: 'bg-accent/70', img: '/assets/images/othello.png' },
 ];
 
 export default function LeadershipPreviewSection() {

@@ -90,7 +90,7 @@ export default function MissionSection() {
           <div className="relative">
             <div className="rounded-3xl overflow-hidden shadow-card-lg aspect-[4/3]">
               <AppImage
-                src="https://img.rocket.new/generatedImages/rocket_gen_img_1040aa9a9-1777360613930.png"
+                src="/assets/images/mission_nassal.png"
                 alt="Community health workers gathered in a bright outdoor setting in West Africa, representing NASSAL's community-centered approach"
                 fill
                 className="object-cover"
