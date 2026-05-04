@@ -2,6 +2,7 @@ import React from 'react';
 import type { Metadata, Viewport } from 'next';
 import { Plus_Jakarta_Sans, Fraunces } from 'next/font/google';
 import '../styles/tailwind.css';
+import WhatsAppFAB from '@/components/ui/WhatsAppFAB';
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ['latin'],
@@ -39,7 +40,8 @@ export default function RootLayout({
     <html lang="en" className={`${plusJakartaSans.variable} ${fraunces.variable}`}>
       <body className={plusJakartaSans.className}>
         {children}
-</body>
+        <WhatsAppFAB />
+      </body>
     </html>
   );
 }
