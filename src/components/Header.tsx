@@ -38,7 +38,7 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className={`flex items-center justify-between rounded-2xl px-4 sm:px-6 py-3 transition-all duration-300 ${
             scrolled
-              ? 'bg-white/95 dark:bg-[#1C1917]/95 shadow-card-lg border border-border/60 backdrop-blur-sm'
+              ? 'bg-white/95 dark:bg-[#1C1917]/95 shadow-card-md border border-border/60 backdrop-blur-sm'
               : 'bg-white/80 dark:bg-[#1C1917]/80 shadow-card border border-border/40 backdrop-blur-sm'
           }`}>
             {/* Logo */}

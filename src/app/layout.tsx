@@ -25,11 +25,31 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
-  title: 'NASSAL — Healing Hope & Resilience for Stroke Survivors in Liberia',
+  metadataBase: new URL('https://nassal.org'),
+  title:{
+    default:'NASSAL | Stroke Awareness and Neurological Support in Liberia',
+    template: "%s | NASSAL",
+  }, 
   description: 'National Stroke Survivors Association of Liberia supports stroke survivors through awareness, education, advocacy, and recovery-focused community outreach across Liberia.',
+   alternates: {
+    canonical: "/",
+  },
+    openGraph: {
+    title: "NASSAL",
+    description:
+      "Stroke awareness, support, and community health advocacy in Liberia.",
+    url: "https://nassal.org",
+    siteName: "NASSAL",
+    locale: "en_US",
+    type: "website",
+  },
+   robots: {
+    index: true,
+    follow: true,
+  },
   keywords: [
     'Stroke survivors association Liberia',
+    'community health education Liberia',
     'NASSAL',
     'Stroke recovery Liberia',
     'Hypertension awareness Liberia',
